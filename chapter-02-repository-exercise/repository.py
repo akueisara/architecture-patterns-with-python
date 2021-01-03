@@ -3,9 +3,9 @@ import abc
 import model
 
 
-@abc.abstractmethod  # (1)
+@abc.abstractmethod
 def add(self, batch: model.Batch):
-    raise NotImplementedError  # (2)
+    raise NotImplementedError
 
 
 @abc.abstractmethod
