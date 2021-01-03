@@ -1,4 +1,4 @@
-# Aarchitecture Pattens with Python
+# Architecture Pattens with Python
 
 Follow through the exercises in the book *Aarchitecture Pattens with Python by Harry Percival; Bob Gregory*
 
