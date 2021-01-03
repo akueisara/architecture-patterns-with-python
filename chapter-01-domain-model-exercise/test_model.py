@@ -42,6 +42,12 @@ def test_can_only_deallocate_allocated_lines():
     assert batch.available_quantity == 20
 
 
+def test_equality():
+    batch1 = Batch("batch-001", "SMALL-TABLE", 20, eta=date.today())
+    batch2 = Batch("batch-001", "UNCOMFORTABLE-CHAIR", 22, eta=date.today())
+    assert batch1 == batch2
+
+
 def test_prefers_warehouse_batches_to_shipments():
     pytest.fail('todo')
 
